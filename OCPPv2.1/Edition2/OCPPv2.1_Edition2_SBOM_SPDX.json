@@ -1,0 +1,176 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "OCPP-2.1-Edition2-SBOM",
+  "documentNamespace": "http://spdx.org/spdxdocs/OCPP-2.1-Edition2-SBOM-019aec18-4d4b-74b7-b10d-369399a38327",
+  "creationInfo": {
+    "created": "2025-12-05T00:00:00Z",
+    "creators": [
+      "Tool: GraphDefined GmbH - Open Charging Cloud SBOM Generator 1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "name": "Open Charge Point Protocol (OCPP) 2.1 Edition 2 Spec Bundle",
+      "downloadLocation": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.1",
+      "versionInfo": "2.1-Edition2",
+      "packageFileName": "OCPP-2.1_Edition2_all_files.zip",
+      "supplier": "Organization: Open Charge Alliance (OCA)",
+      "originator": "Organization: Open Charge Alliance (OCA)",
+      "licenseConcluded": "CC-BY-ND-4.0",
+      "licenseDeclared": "CC-BY-ND-4.0",
+      "copyrightText": "Copyright © 2010 - 2025 Open Charge Alliance. All rights reserved.",
+      "description": "OCPP 2.1 Edition 2 (also standardized as IEC 63584) release bundle containing PDFs, CSV appendices and JSON schema ZIP archives for the OCPP protocol.",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "39278ad9b2b8c997add4242590453426c745f28b21b6b21ec94866f359bf96b7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "url",
+          "referenceLocator": "https://openchargealliance.org/"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "url",
+          "referenceLocator": "https://webstore.iec.ch/en/publication/95734"
+        }
+      ],
+      "filesAnalyzed": true
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-Appendices-CSV-v2.1-zip",
+      "fileName": "Appendices_CSV_v2.1.zip",
+      "fileTypes": [ "ARCHIVE" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=appendices-csv; file:mime-type=application/zip"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part0-Introduction-PDF",
+      "fileName": "OCPP-2.1_edition2_part0_introduction.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part0-introduction; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part1-Architecture-Topology-PDF",
+      "fileName": "OCPP-2.1_edition2_part1_architecture_topology.pdf",
+      "fileTypes": [ "DOCUMENTATION" ], 
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part1-architecture-topology; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part2-Appendices-PDF",
+      "fileName": "OCPP-2.1_edition2_part2_appendices_v21.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part2-appendices; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part2-Specification-PDF",
+      "fileName": "OCPP-2.1_edition2_part2_specification.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part2-specification; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part4-OCPP-J-Spec-PDF",
+      "fileName": "OCPP-2.1_edition2_part4_ocpp-j-specification.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part4-ocpp-j; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part5-Cert-Profiles-PDF",
+      "fileName": "OCPP-2.1_edition2_part5_certification_profiles.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part5-certification-profiles; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part6-Testcases-PDF",
+      "fileName": "OCPP-2.1_edition2_part6-testcases.pdf",
+      "fileTypes": [ "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part6-testcases; file:mime-type=application/pdf"
+    },
+    {
+      "SPDXID": "SPDXRef-File-Part3-JSON-Schemas-ZIP",
+      "fileName": "OCPP-2.1_part3_JSON_schemas.zip",
+      "fileTypes": [ "ARCHIVE" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=part3-json-schemas; file:mime-type=application/zip"
+    },
+    {
+      "SPDXID": "SPDXRef-File-ReadMe-MD",
+      "fileName": "ReadMe.md",
+      "fileTypes": [ "TEXT", "DOCUMENTATION" ],
+      "copyrightText": "NOASSERTION",
+      "comment": "standard:part=readme; file:mime-type=text/markdown"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-OCPP-2.1-Edition2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Appendices-CSV-v2.1-zip"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part0-Introduction-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part1-Architecture-Topology-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part2-Appendices-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part2-Specification-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part4-OCPP-J-Spec-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part5-Cert-Profiles-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part6-Testcases-PDF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-Part3-JSON-Schemas-ZIP"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-OCPP-2.1-Edition2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-File-ReadMe-MD"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:019aec18-4d4b-74b7-b10d-369399a38327",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-05T00:00:00Z",
+    "tools": [
+      {
+        "vendor": "GraphDefined GmbH",
+        "name": "Open Charging Cloud SBOM Generator",
+        "version": "1.0"
+      }
+    ],
+    "component": {
+      "bomRef": "ocpp-2.1-ed2-release",
+      "type": "file",
+      "name": "OCPP-2.1_Edition2_all_files.zip",
+      "version": "2.1-Edition2",
+      "description": "OCPP 2.1 Edition 2 release bundle containing PDFs, CSV appendices and JSON schema ZIP archives.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "copyright": "Copyright © 2010 - 2025 Open Charge Alliance. All rights reserved.",
+      "supplier": {
+        "name": "Open Charge Alliance (OCA)"
+      },
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.1"
+        },
+        {
+          "type": "documentation",
+          "url": "https://webstore.iec.ch/en/publication/95734",
+          "comment": "IEC 63584"
+        }
+      ],
+      "properties": [
+        {
+          "name": "standard:id",
+          "value": "OCPP-2.1-Edition-2"
+        },
+        {
+            "name": "standard:alt-id",
+            "value": "IEC 63584"
+        },
+        {
+          "name": "standard:type",
+          "value": "protocol"
+        },
+        {
+          "name": "release:structure",
+          "value": "directory-with-pdfs-and-zip-artifacts"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "39278ad9b2b8c997add4242590453426c745f28b21b6b21ec94866f359bf96b7"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bomRef": "appendices-csv-v2.1-zip",
+      "type": "file",
+      "name": "Appendices_CSV_v2.1.zip",
+      "description": "CSV appendices for OCPP 2.1.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "Appendices_CSV_v2.1.zip"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/zip"
+        },
+        {
+          "name": "standard:part",
+          "value": "appendices-csv"
+        }
+      ]
+    },
+    {
+      "bomRef": "part0-introduction-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part0_introduction.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 0: Introduction.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part0_introduction.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part0-introduction"
+        }
+      ]
+    },
+    {
+      "bomRef": "part1-architecture-topology-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part1_architecture_topology.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 1: Architecture & Topology.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part1_architecture_topology.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part1-architecture-topology"
+        }
+      ]
+    },
+    {
+      "bomRef": "part2-appendices-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part2_appendices_v21.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 2: Appendices v2.1.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part2_appendices_v21.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part2-appendices"
+        }
+      ]
+    },
+    {
+      "bomRef": "part2-specification-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part2_specification.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 2: Core protocol specification.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part2_specification.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part2-specification"
+        }
+      ]
+    },
+    {
+      "bomRef": "part4-ocpp-j-spec-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part4_ocpp-j-specification.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 4: OCPP-J specification.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part4_ocpp-j-specification.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part4-ocpp-j"
+        }
+      ]
+    },
+    {
+      "bomRef": "part5-cert-profiles-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part5_certification_profiles.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 5: Certification profiles.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part5_certification_profiles.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part5-certification-profiles"
+        }
+      ]
+    },
+    {
+      "bomRef": "part6-testcases-pdf",
+      "type": "file",
+      "name": "OCPP-2.1_edition2_part6-testcases.pdf",
+      "description": "OCPP 2.1 Edition 2 Part 6: Test cases.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_edition2_part6-testcases.pdf"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/pdf"
+        },
+        {
+          "name": "standard:part",
+          "value": "part6-testcases"
+        }
+      ]
+    },
+    {
+      "bomRef": "part3-json-schemas-zip",
+      "type": "file",
+      "name": "OCPP-2.1_part3_JSON_schemas.zip",
+      "description": "ZIP archive containing OCPP 2.1 JSON schema definitions.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "OCPP-2.1_part3_JSON_schemas.zip"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "application/zip"
+        },
+        {
+          "name": "standard:part",
+          "value": "part3-json-schemas"
+        }
+      ]
+    },
+    {
+      "bomRef": "readme-md",
+      "type": "file",
+      "name": "ReadMe.md",
+      "description": "ReadMe file for the OCPP 2.1 Edition 2 release.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-ND-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "artifact:path",
+          "value": "ReadMe.md"
+        },
+        {
+          "name": "file:mime-type",
+          "value": "text/markdown"
+        },
+        {
+          "name": "standard:part",
+          "value": "readme"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "ocpp-2.1-ed2-release",
+      "dependsOn": [
+        "appendices-csv-v2.1-zip",
+        "part0-introduction-pdf",
+        "part1-architecture-topology-pdf",
+        "part2-appendices-pdf",
+        "part2-specification-pdf",
+        "part4-ocpp-j-spec-pdf",
+        "part5-cert-profiles-pdf",
+        "part6-testcases-pdf",
+        "part3-json-schemas-zip",
+        "readme-md"
+      ]
+    }
+  ]
+}

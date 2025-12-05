@@ -1,2 +1,3 @@
 # OCPP-SBOM
-SBOM definitions for OCPP releases
+
+SBOM definitions for diverent OCPP releases (WIP!)
